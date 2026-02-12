@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="zh-CN">
 <head>
-  <title>Caicai.work</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caicai | 个人主页</title>
+    <style>
+        :root { --primary: #2d3436; --accent: #0984e3; }
+        body { margin: 0; font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .container { background: white; width: 90%; max-width: 400px; padding: 40px; border-radius: 30px; box-shadow: 0 20px 40px rgba(0,0,0,0.05); text-align: center; }
+        .avatar { width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(135deg, #6c5ce7, #a29bfe); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; color: white; font-size: 40px; font-weight: bold; }
+        h1 { color: var(--primary); margin: 10px 0; font-size: 24px; }
+        p { color: #636e72; font-size: 16px; line-height: 1.6; margin-bottom: 30px; }
+        .btn { display: block; padding: 12px; margin-bottom: 12px; background: #f8f9fa; color: var(--primary); text-decoration: none; border-radius: 12px; font-weight: 500; transition: all 0.3s; border: 1px solid #eee; }
+        .btn:hover { background: var(--accent); color: white; transform: translateY(-2px); border-color: var(--accent); }
+        .footer { margin-top: 30px; font-size: 12px; color: #b2bec3; }
+    </style>
 </head>
-
 <body>
-  <h1>欢迎来到 Caicai 的主页！</h1>
-  <p>这是一个正在建设中的酷炫网站。</p>
-</body>
+    <div class="container">
+        <div class="avatar">C</div>
+        <h1>Caicai</h1>
+        <p>👋 你好！这是我的专属网站<br>目前正在探索 Web 世界的奥秘...</p>
+        
+        <a href="mailto:yourname@example.com" class="btn">📧 发邮件给我</a>
+        <a href="#" class="btn">📂 我的作品集</a>
+        <a href="https://github.com/caiwang9527" class="btn">💻 GitHub</a>
 
+        <div class="footer">© 2026 caicai.work</div>
+    </div>
+</body>
 </html>
